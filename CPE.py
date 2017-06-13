@@ -37,8 +37,6 @@ select_statement = "SELECT origin_url, username_value, password_value FROM login
 cursor.execute(select_statement)
 
 login_data = cursor.fetchall()
-
-#URL: credentials dictionary
 credential = {}
 
 #Decrytping the passwords
